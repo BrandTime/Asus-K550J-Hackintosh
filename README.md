@@ -24,5 +24,5 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## What's not working
 
-- [] Fn + F9 Disable Touchpad(Can use Shift + Caps + F9)
-- [] HDMI Audio(I don't use it)
+- [ ] Fn + F9 Disable Touchpad(Can use Shift + Caps + F9)
+- [ ] HDMI Audio(I don't use it)
