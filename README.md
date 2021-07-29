@@ -19,10 +19,9 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## Software
 
-* Bootloader: OpenCore 0.6.7
-* OS: macOS Big Sur 11.2 (iMac11,4)
+* Bootloader: OpenCore 0.7.1
+* OS: macOS Big Sur 11.4 (MacBookPro11,4)
 
 ## What's not working
 
 - [ ] Fn + F9 Disable Touchpad(Can use Caps + Shift + F9)
-- [ ] HDMI Audio(I don't use it)
