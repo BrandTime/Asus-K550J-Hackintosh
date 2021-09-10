@@ -142,19 +142,19 @@
 				<string>F12</string>
 			</dict>
 			<key>Fn keys Layout</key>
-			<string>NONE</string>
+			<string>ASUS</string>
 			<key>Fn keys Mode</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>IOClass</key>
 			<string>ApplePS2Keyboard</string>
 			<key>IOProviderClass</key>
 			<string>ApplePS2KeyboardDevice</string>
 			<key>Keyboard type (ID)</key>
-			<integer>27</integer>
+			<integer>0</integer>
 			<key>Preferences</key>
 			<dict>
 				<key>Disable Num Lock LED</key>
-				<true/>
+				<false/>
 				<key>Enable Extended Functions</key>
 				<true/>
 				<key>Enable Sierra Caps Lock Fix</key>
