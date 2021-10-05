@@ -12,14 +12,15 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 * Motherboard: Asus K550J
     * Ethernet: Realtek RTL8168/8111
     * Wi-Fi/BT: Broadcom BCM94360HMB 802.11ac(Mini PCIE Adapter)
-    * Audio: Conexant CX20751/2
+    * Audio: Conexant CX20751/2 (layout-id: 3)
 * CPU: Intel Core i7-4720HQ, 3500 MHz
-* GPU: GeForce GTX 950M
+* iGPU: Intel HD Graphics 4600
+* eGPU: GeForce GTX 950M (not work)
 * RAM: DDR3L 1600 8GB
 
 ## Software
 
-* Bootloader: OpenCore 0.7.3
+* Bootloader: OpenCore 0.7.4
 * OS: macOS Monterey 12.0 (MacBookPro11,4)
 
 ## What's not working
