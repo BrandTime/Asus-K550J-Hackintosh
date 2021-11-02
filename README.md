@@ -15,14 +15,10 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
     * Audio: Conexant CX20751/2 (layout-id: 3)
 * CPU: Intel Core i7-4720HQ, 3500 MHz
 * iGPU: Intel HD Graphics 4600
-* eGPU: GeForce GTX 950M (not work)
+* eGPU: GeForce GTX 950M (disable)
 * RAM: DDR3L 1600 8GB
 
 ## Software
 
-* Bootloader: OpenCore 0.7.4
+* Bootloader: OpenCore 0.7.5
 * OS: macOS Monterey 12.0 (MacBookPro11,4)
-
-## What's not working
-
-- [ ] Fn + F9 Disable Touchpad(Can use Caps + Shift + F9)
