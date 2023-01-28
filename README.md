@@ -20,5 +20,5 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## Software
 
-* Bootloader: OpenCore 0.8.0
+* Bootloader: OpenCore 0.8.8
 * OS: macOS Monterey 12.1 (MacBookPro 11,4)
