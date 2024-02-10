@@ -20,5 +20,11 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## Software
 
-* Bootloader: OpenCore 0.8.8
-* OS: macOS Monterey 12.1 (MacBookPro 11,4)
+* Bootloader: OpenCore 0.9.8
+* OS: macOS Sonoma 14.3 (MacBookPro 14,1)
+
+
+## Thanks
+
+ Sonoma Install Guide [GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70](https://github.com/GeekyCoder7/OpenCore-EFI-Lenovo-Y50-70/) 
+ 
