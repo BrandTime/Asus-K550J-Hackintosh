@@ -564,14 +564,12 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
-				<key>AAPL,GfxYTile</key>
-				<data>AQAAAA==</data>
 				<key>AAPL,ig-platform-id</key>
 				<data>BgAmCg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
 				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wAGEHycAAAAAAAXAQSVIhNgCm+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEB0jeAonA4QEAwICUAWMIQAAAZNyWAonA4QEAwICUAWMIQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAMM/8PPJYtFDKWAAAAAAo=</data>
+				<data>AP///////wAGr+02AAAAAAAXAQSQIhN4AtEVnllTmyceUFQAAAABAQEBAQEBAQEBAQEBAQEBeDeAtHA4LkBsIKoAWMEQAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTU2SFROMDMuNiAKAKw=</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
 				<key>device_type</key>
@@ -580,38 +578,40 @@
 				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
-				<key>enable-lspcon-support</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AQUSAAAIAACHAAAA/wAAAAAIAABAAAAA</data>
-				<key>framebuffer-con1-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con1-preferred-lspcon-mode</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-has-lspcon</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con2-preferred-lspcon-mode</key>
-				<data>AQAAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con2-flags</key>
+				<data>BgAAAA==</data>
+				<key>framebuffer-con2-pipe</key>
+				<data>EgAAAA==</data>
+				<key>framebuffer-con2-type</key>
+				<data>AAgAAA==</data>
 				<key>framebuffer-cursormem</key>
 				<data>AACQAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-memorycount</key>
-				<data>AgAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-portcount</key>
-				<data>AgAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<key>framebuffer-patch0-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch0-find</key>
+				<data>AQUJAAAEAACHAAAA</data>
+				<key>framebuffer-patch0-replace</key>
+				<data>/wAJAAAEAACHAAAA</data>
+				<key>framebuffer-patch1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch1-find</key>
+				<data>AQAAAEAAAAAeAgAABQUJAQ==</data>
+				<key>framebuffer-patch1-replace</key>
+				<data>AQAAAEAAAAAfAgAABQUJAQ==</data>
+				<key>framebuffer-patch2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-patch2-find</key>
+				<data>AwAiDQADAwMAAAACAAAwAQAAAAAAAABgmRQ=</data>
+				<key>framebuffer-patch2-replace</key>
+				<data>AwAiDQADAwMAAAAIAAAAAgAAAAAAAACAmRQ=</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
-				<key>model</key>
-				<string>Intel HD Graphics 4600</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x3,0x0)</key>
 			<dict>
@@ -1487,7 +1487,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -no_compat_check vsmcgen=1 amfi=0x80 brcmfx-country=#a</string>
+				<string>keepsyms=1 debug=0x100 -wegnoegpu -no_compat_check vsmcgen=1 amfi=0x80 brcmfx-country=#a</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>ForceDisplayRotationInEFI</key>
@@ -1565,7 +1565,7 @@
 			<key>MLB</key>
 			<string></string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>3842</integer>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
