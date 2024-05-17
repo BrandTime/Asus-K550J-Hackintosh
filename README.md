@@ -20,8 +20,8 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## Software
 
-* Bootloader: OpenCore 0.9.8
-* OS: macOS Sonoma 14.3 (MacBookPro 14,1)
+* Bootloader: OpenCore 1.0.0
+* OS: macOS Sonoma 14.5 (MacBookPro 14,1)
 
 
 ## Thanks
