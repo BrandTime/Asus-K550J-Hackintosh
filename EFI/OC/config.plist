@@ -1489,7 +1489,7 @@
 				<key>boot-args</key>
 				<string>keepsyms=1 debug=0x100 -wegnoegpu -no_compat_check vsmcgen=1 amfi=0x80 brcmfx-country=#a ipc_control_port_options=0</string>
 				<key>csr-active-config</key>
-				<data>AwgAAA==</data>
+				<data>/w8AAA==</data>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>prev-lang:kbd</key>
