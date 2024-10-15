@@ -915,7 +915,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string>23.0.0</string>
+				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1221,7 +1221,7 @@
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>23.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -1491,7 +1491,7 @@
 				<key>bluetoothExternalDongleFailed</key>
 				<data>AA==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 -wegnoegpu -no_compat_check vsmcgen=1 brcmfx-country=#a ipc_control_port_options=0</string>
+				<string>keepsyms=1 debug=0x100 -no_compat_check vsmcgen=1 brcmfx-country=#a ipc_control_port_options=0</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>ForceDisplayRotationInEFI</key>
@@ -1516,6 +1516,8 @@
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
+				<string>bluetoothExternalDongleFailed</string>
+				<string>bluetoothInternalControllerInfo</string>
 				<string>ForceDisplayRotationInEFI</string>
 				<string>boot-args</string>
 				<string>csr-active-config</string>
